@@ -1,6 +1,7 @@
 import http from "node:http";
 import { createBareServer } from "@tomphttp/bare-server-node";
 
+// const API_KEY = process.env.API_KEY;
 const BASE_PATH = "/bare/";
 
 const bare = createBareServer(BASE_PATH);
